@@ -14,8 +14,17 @@ sudo apt-get install qr-encode lpr
 
 # Usage
 
+
+## simple qr only (no label)
+
 ```sh
-bash qr-maker.sh "hello world!"
+bash qr-maker.sh -m "hello world!"
+```
+
+## qr with centered label beneath:
+
+```sh
+bash qr-maker.sh -m "hello world!" -l "best qr message"
 ```
 
 # Hardware Used
